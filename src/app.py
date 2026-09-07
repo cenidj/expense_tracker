@@ -57,32 +57,3 @@ while True:
 
         for category, amount in category_count.items():
             print(f"{category}:      ${amount:.2f}")
-
-"""
-
-    expenses = [
-        {
-            "category": "Food"
-            "amount": 20,  
-        },
-        {
-            "category: "Love",
-            "amount": 30
-        }
-    ]
-    
-    category_count = {
-        
-    }
-    
-    for expense in expenses:
-        if expense["category"] in category_count:
-            expense["category"] +=  expense["amount"]
-        else:
-            category_count[expense["category"]] = expense["amount"]
-            
-    for key, value in category_count.items():
-        print(f"{key}:      ${value:.2f}")
-            
-    
-"""
